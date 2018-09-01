@@ -16,6 +16,23 @@ const scrapper = require("url-scrapper");
 try {
   const metadata = await scrapper("https://github.com")
   console.log('metadata info', metadata);
+
+  //response
+  /**
+  * { 
+  *   author: null,
+  *   date: null,
+  *   description: 'GitHub is where people build software..',
+  *   image: 'https://assets-cdn.github.com/images/modules/open_graph/github-logo.png',
+  *   logo: 'https://assets-cdn.github.com/favicon.ico',
+  *   publisher: 'GitHub',
+  *   title: 'Build software better, together',
+  *   url: 'https://github.com',
+  *   lang: null,
+  *   video: null 
+    }
+  **/
+
 } catch (e) {
   console.error(e);
 }
