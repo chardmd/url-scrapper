@@ -1,7 +1,7 @@
 {
   "name": "url-scrapper",
   "version": "1.0.0",
-  "description": "A node.js module that scraps the metadata of a URL",
+  "description": "A node.js module that extracts the metadata of a URL",
   "homepage": "https://github.com/chardmd/url-scrapper",
   "keywords": [
     "node",

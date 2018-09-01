@@ -1,6 +1,6 @@
 # url-scrapper
 
-A node.js module that scraps the metadata of a URL
+A node.js module that extracts the metadata of a URL
 
 ### Install
 
