@@ -15,6 +15,9 @@
     "node": ">=8.6"
   },
   "main": "scrapper",
+  "files": [
+		"scrapper"
+	],
   "license": "MIT",
   "dependencies": {
     "got": "^8.3.2",
