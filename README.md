@@ -11,7 +11,7 @@ npm install url-scrapper
 ### Usage
 
 ```javascript
-import scrapper from 'url-scrapper'
+const scrapper = require("url-scrapper");
 
 try {
   const metadata = await scrapper("https://github.com")
