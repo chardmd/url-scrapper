@@ -27,10 +27,8 @@ try {
   *   logo: 'https://assets-cdn.github.com/favicon.ico',
   *   publisher: 'GitHub',
   *   title: 'Build software better, together',
-  *   url: 'https://github.com',
-  *   lang: null,
-  *   video: null 
-    }
+  *   url: 'https://github.com'
+  *  }
   **/
 
 } catch (e) {

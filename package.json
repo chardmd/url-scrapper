@@ -1,6 +1,6 @@
 {
   "name": "url-scrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node.js module that extracts the metadata of a URL",
   "homepage": "https://github.com/chardmd/url-scrapper",
   "keywords": [
@@ -14,15 +14,17 @@
   "engines": {
     "node": ">=8.6"
   },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
   "main": "scrapper",
   "files": [
-		"scrapper"
-	],
+    "scrapper"
+  ],
   "license": "MIT",
   "dependencies": {
     "got": "^8.3.2",
     "metascraper": "^4.0.1",
-    "metascraper-amazon": "^4.0.2",
     "metascraper-author": "^4.0.2",
     "metascraper-clearbit-logo": "^4.0.2",
     "metascraper-date": "^4.0.2",
@@ -31,12 +33,8 @@
     "metascraper-logo": "^4.0.2",
     "metascraper-logo-favicon": "^4.0.2",
     "metascraper-publisher": "^4.0.3",
-    "metascraper-soundcloud": "^4.0.2",
     "metascraper-title": "^4.0.2",
-    "metascraper-url": "^4.0.2",
-    "metascraper-video": "^4.0.2",
-    "metascraper-video-provider": "^4.0.2",
-    "metascraper-youtube": "^4.0.2"
+    "metascraper-url": "^4.0.2"
   },
   "devDependencies": {
     "mocha": "*"

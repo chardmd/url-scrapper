@@ -10,12 +10,7 @@ const metascraper = require("metascraper")([
   require("metascraper-clearbit-logo")(),
   require("metascraper-publisher")(),
   require("metascraper-title")(),
-  require("metascraper-url")(),
-  require("metascraper-logo-favicon")(),
-  require("metascraper-amazon")(),
-  require("metascraper-youtube")(),
-  require("metascraper-soundcloud")(),
-  require("metascraper-video-provider")()
+  require("metascraper-url")()
 ]);
 
 /**
